@@ -1,0 +1,15 @@
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/bin/Debug/net8.0/LeetCode
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/bin/Debug/net8.0/LeetCode.deps.json
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/bin/Debug/net8.0/LeetCode.runtimeconfig.json
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/bin/Debug/net8.0/LeetCode.dll
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/bin/Debug/net8.0/LeetCode.pdb
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.AssemblyInfoInputs.cache
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.AssemblyInfo.cs
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.csproj.CoreCompileInputs.cache
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.sourcelink.json
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.dll
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/obj/Debug/net8.0/refint/LeetCode.dll
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.pdb
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.genruntimeconfig.cache
+/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/obj/Debug/net8.0/ref/LeetCode.dll
