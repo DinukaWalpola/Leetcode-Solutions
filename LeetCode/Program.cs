@@ -4,11 +4,16 @@ using LeetCode.Easy;
 
 Console.WriteLine("Hello, World!");
 
-char[] chars = { 'h', 'e', 'l', 'l', 'o' };
+// REVERSE STRING
+// char[] chars = { 'h', 'e', 'l', 'l', 'o' };
+//
+// var x = ReverseStringSolution.ReverseString(chars);
+//
+// foreach (var s in x)
+// {
+//     Console.WriteLine(s);
+// }
 
-var x = ReverseStringSolution.ReverseString(chars);
+// CLEAR DIGITS
+Console.WriteLine(ClearDigitsSolutions.ClearDigits("cb34"));
 
-foreach (var s in x)
-{
-    Console.WriteLine(s);
-}
