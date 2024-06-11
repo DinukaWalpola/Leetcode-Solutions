@@ -4,23 +4,27 @@ public static class ClearDigitsSolutions
 {
     public static string ClearDigits(string s)
     {
-        // Console.WriteLine(s);
-        // char[] letters = s.ToCharArray();
         var w = s;
         char[] nums = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
-        for (int i = 0; i < s.Length; i++)
+
+        int count = 0;
+        
+        do
         {
-            if (nums.Contains(s.ToCharArray()[i]))
+            if (nums.Contains(w.ToCharArray()[count]))
             {
-                w = w.Replace(s.ToCharArray()[i].ToString(), "");
-                // Console.WriteLine(s);
-                // Console.WriteLine(w.Length);
-                // Console.WriteLine(s.ToCharArray()[i].ToString());
-                w = w.Replace(s.ToCharArray()[i-1].ToString(), "");
-                // Console.WriteLine(s);
-                // Console.WriteLine(s.Length);
+                w = w.Replace(w.ToCharArray()[count].ToString(), "");
+                w = w.Replace(w.ToCharArray()[count-1].ToString(), "");
+                count -= 2;
             }
-        }
+            count++;
+
+            // if (count == 0)
+            // {
+            //     break;
+            // }
+            
+        } while (count < s.Length && count > 0);
 
         return w;
     }

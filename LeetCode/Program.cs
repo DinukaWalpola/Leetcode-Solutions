@@ -15,5 +15,5 @@ Console.WriteLine("Hello, World!");
 // }
 
 // CLEAR DIGITS
-Console.WriteLine(ClearDigitsSolutions.ClearDigits("cb34"));
+Console.WriteLine(ClearDigitsSolutions.ClearDigits("cbd"));
 
