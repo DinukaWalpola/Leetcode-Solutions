@@ -15,5 +15,5 @@ Console.WriteLine("Hello, World!");
 // }
 
 // CLEAR DIGITS
-Console.WriteLine(ClearDigitsSolutions.ClearDigits("cds"));
+Console.WriteLine(ClearDigitsSolutions.ClearDigits("7"));
 
