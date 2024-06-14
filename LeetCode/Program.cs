@@ -17,4 +17,7 @@ Console.WriteLine("Hello, World!");
 // CLEAR DIGITS
 // Console.WriteLine(ClearDigitsSolutions.ClearDigits("7"));
 
-
+// REVERSE VOWELS
+var s = "code";
+var output = ReverseVowelsSolution.ReverseVowels(s);
+Console.WriteLine(output);
