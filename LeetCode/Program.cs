@@ -18,6 +18,6 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(ClearDigitsSolutions.ClearDigits("7"));
 
 // REVERSE VOWELS
-var s = "leetcode";
+var s = ".a";
 var output = ReverseVowelsSolution.ReverseVowels(s);
 Console.WriteLine(output);
