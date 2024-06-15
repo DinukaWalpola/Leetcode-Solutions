@@ -2,34 +2,34 @@ namespace LeetCode.Easy;
 
 public class ReverseVowelsSolution
 {
-    public static string ReverseVowels(string x)
+    public static string ReverseVowels(string s)
     {
-        var s = x.ToCharArray();
+        var sCharArr = s.ToCharArray();
         char[] totalVowels = { 'a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U' };
         var includedVowels = new List<int>();
         var count = 0;
 
-        for (int i = 0; i < s.Length / 2; i++)
+        for (int i = 0; i < sCharArr.Length / 2; i++)
         {
-            if (totalVowels.Contains(s[i]))
+            if (totalVowels.Contains(sCharArr[i]))
             {
                 includedVowels.Add(i);
             }
         }
 
-        for (int i = s.Length / 2; i < s.Length; i++)
+        for (int i = sCharArr.Length / 2; i < sCharArr.Length; i++)
         {
-            if (totalVowels.Contains(s[i]))
+            if (totalVowels.Contains(sCharArr[i]))
             {
-                var temp = s[i];
-                s[i] = s[includedVowels[count]];
-                s[includedVowels[0]] = temp;
+                var temp = sCharArr[i];
+                sCharArr[i] = sCharArr[includedVowels[includedVowels.Count - (1 + count)]];
+                sCharArr[includedVowels[includedVowels.Count - (1 + count)]] = temp;
                 count++;
             }
         }
 
-        x = String.Join("", s);
+        s = String.Join("", sCharArr);
 
-        return x;
+        return s;
     }
 }
