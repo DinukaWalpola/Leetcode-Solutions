@@ -6,29 +6,28 @@ public class ReverseVowelsSolution
     {
         var sCharArr = s.ToCharArray();
         char[] totalVowels = { 'a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U' };
-        var includedVowels = new List<int>();
-        var count = 0;
+        var stackVowels = new Stack<int>();
+        var queueVowels = new Queue<int>();
 
-        for (int i = 0; i < sCharArr.Length / 2; i++)
+        for (int i = 0; i < sCharArr.Length; i++)
         {
             if (totalVowels.Contains(sCharArr[i]))
             {
-                includedVowels.Add(i);
+                stackVowels.Push(i);
+                queueVowels.Enqueue(i);
             }
         }
 
-        for (int i = sCharArr.Length / 2; i < sCharArr.Length; i++)
+        for (int i = 0; i < stackVowels.Count / 2; i++)
         {
-            if (totalVowels.Contains(sCharArr[i]))
-            {
-                var temp = sCharArr[i];
-                sCharArr[i] = sCharArr[includedVowels[includedVowels.Count - (1 + count)]];
-                sCharArr[includedVowels[includedVowels.Count - (1 + count)]] = temp;
-                count++;
-            }
+            var temp = sCharArr[queueVowels.Peek() - i];
+            sCharArr[queueVowels.Peek() - i] = sCharArr[stackVowels.Peek() - i];
+            sCharArr[stackVowels.Peek() - i] = temp;
+            // stackVowels.Pop();
+            // queueVowels.Dequeue();
         }
 
-        s = String.Join("", sCharArr);
+        s = new string(sCharArr);
 
         return s;
     }
