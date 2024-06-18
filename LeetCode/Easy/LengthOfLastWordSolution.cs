@@ -7,27 +7,25 @@ public class LengthOfLastWordSolution
         // Create a string var outside the for loops to store the maximum length
         // then compare it with each word in the loops 
 
-        string longest = "";
-        string word = "";
-
-        foreach (var c in s)
+        string lastWord = "";
+        bool isLastwordIdentifies = false;
+        
+        for (int i = s.Length - 1; i >= 0; i--)
         {
-            if (c != ' ')
+            if (s[i] != ' ' && !isLastwordIdentifies)
             {
-                word += 'c';
+                lastWord += s[i];
             }
             else
             {
-                word = "";
-                continue;
-            }
-
-            if (longest.Length < word.Length)
-            {
-                longest = word;
+                if (lastWord.Length != 0)
+                {
+                    isLastwordIdentifies = true;
+                    break;
+                }
             }
         }
 
-        return longest.Length;
+        return lastWord.Length;
     }
 }
