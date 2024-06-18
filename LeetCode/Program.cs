@@ -23,5 +23,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(output);
 
 // LENGTH OF LAST WORD
-var s = "   fly me   to   the moon  ";
-Console.WriteLine(LengthOfLastWordSolution.LengthOfLastWord(s));
+// var s = "   fly me   to   the moon  ";
+// Console.WriteLine(LengthOfLastWordSolution.LengthOfLastWord(s));
+
+// VALID PALINDROME
+var s = "0P";
+Console.WriteLine(ValidPalindromeSolution.IsPalindrome(s));
