@@ -18,6 +18,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(ClearDigitsSolutions.ClearDigits("7"));
 
 // REVERSE VOWELS
-var s = ".a";
-var output = ReverseVowelsSolution.ReverseVowels(s);
-Console.WriteLine(output);
+// var s = ".a";
+// var output = ReverseVowelsSolution.ReverseVowels(s);
+// Console.WriteLine(output);
+
+// LENGTH OF LAST WORD
+var s = "   fly me   to   the moon  ";
+Console.WriteLine(LengthOfLastWordSolution.LengthOfLastWord(s));
