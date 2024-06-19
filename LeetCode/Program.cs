@@ -27,5 +27,5 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(LengthOfLastWordSolution.LengthOfLastWord(s));
 
 // VALID PALINDROME
-var s = "0P";
+var s = "A man, a plan, a canal: Panama";
 Console.WriteLine(ValidPalindromeSolution.IsPalindrome(s));

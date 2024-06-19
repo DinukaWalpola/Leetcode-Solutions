@@ -4,32 +4,37 @@ public class ValidPalindromeSolution
 {
     public static bool IsPalindrome(string s)
     {
-        s = s.ToLower();
-        string word = "";
-
-        if (s.Length > 1)
-        {
-            foreach (var c in s)
-            {
-                if (Char.IsLetterOrDigit(c))
-                {
-                    word += c;
-                }
-            }
-        }
-        else
-        {
-            word = s;
-        }
+        //TODO: Try with storing the start and end separately in two different vars
+        
+        string word = s.ToLower();
+        int index = 0;
+        int count = 0;
 
         Console.WriteLine(word);
-        
-        for (int i = 0; i < word.Length; i++)
+
+        while (count < word.Length)
         {
-            if (word[i] != word[word.Length - 1 - i])
+            if (Char.IsLetterOrDigit(word[index]))
             {
-                return false;
+                if (Char.IsLetterOrDigit(word[word.Length - 1 - index]))
+                {
+                    if (word[index] != word[word.Length - 1 - index])
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    if (word[index] != word[word.Length - 1 - 1 - index])
+                    {
+                        return false;
+                    }
+                }
+
+                index++;
             }
+
+            count++;
         }
 
         return true;
