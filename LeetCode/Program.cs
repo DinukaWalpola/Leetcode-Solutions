@@ -27,5 +27,13 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(LengthOfLastWordSolution.LengthOfLastWord(s));
 
 // VALID PALINDROME
-var s = "A man, a plan, a canal: Panama";
-Console.WriteLine(ValidPalindromeSolution.IsPalindrome(s));
+// var s = "A man, a plan, a canal: Panama";
+// Console.WriteLine(ValidPalindromeSolution.IsPalindrome(s));
+
+// RANSOM NOTE
+// string ransomNote = "aa", magazine = "aab";
+// Console.WriteLine(RansomNote.CanConstruct(ransomNote:ransomNote, magazine:magazine));
+
+// FIRST UNIQUE CHARACTER IN A STRING
+string s = "leetcodel";
+Console.WriteLine(FirstUniqueCharacterSolution.FirstUniqChar(s));
