@@ -35,5 +35,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(RansomNote.CanConstruct(ransomNote:ransomNote, magazine:magazine));
 
 // FIRST UNIQUE CHARACTER IN A STRING
-string s = "leetcodel";
-Console.WriteLine(FirstUniqueCharacterSolution.FirstUniqChar(s));
+// string s = "leetcodel";
+// Console.WriteLine(FirstUniqueCharacterSolution.FirstUniqChar(s));
+
+// FIND THE DIFFERENCE
+string s = "", t = "a";
+Console.WriteLine(FindDifferenceSolution.FindTheDifference(s, t));
