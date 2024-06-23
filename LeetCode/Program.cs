@@ -39,5 +39,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(FirstUniqueCharacterSolution.FirstUniqChar(s));
 
 // FIND THE DIFFERENCE
-string s = "", t = "a";
-Console.WriteLine(FindDifferenceSolution.FindTheDifference(s, t));
+// string s = "", t = "a";
+// Console.WriteLine(FindDifferenceSolution.FindTheDifference(s, t));
+
+// ADD STRINGS
+string num1 = "401716832807512840963", num2 = "167141802233061013023557397451289113296441069";
+Console.WriteLine(AddStringsSolution.AddStrings(num1, num2));
