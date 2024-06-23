@@ -7,6 +7,10 @@ public class AddStringsSolution
 {
     public static string AddStrings(string num1, string num2)
     {
+        // try with a single loop that iterated through the length of the longest input(num1 or num2) 
+        // then try adding them from the end of the string 
+        // It will also have the same mechanism to maintain the 0s (10s, 100s, 1000s etc.) like this solution
+        
         BigInteger numOne = 0;
         StringBuilder sb = new StringBuilder();
         BigInteger numTwo = 0;
