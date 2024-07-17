@@ -52,5 +52,15 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(result);
 
 // ROBOT RETURN TO ORIGIN
-string moves = "LL";
-Console.WriteLine(RobotReturnToOriginSolution.JudgeCircle(moves));
+// string moves = "LL";
+// Console.WriteLine(RobotReturnToOriginSolution.JudgeCircle(moves));
+
+// DIVIDE A STRING INTO GROUPS SIZE OF K
+string s = "abcdefghij";
+int k = 3;
+char fill = 'x';
+string[] result = DivideStringIntoGroupSizeKSolution.DivideString(s, k, fill);
+foreach (var res in result)
+{
+    Console.WriteLine(res);
+}
