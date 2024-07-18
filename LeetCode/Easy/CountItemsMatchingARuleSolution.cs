@@ -5,17 +5,13 @@ public class CountItemsMatchingARuleSolution
     public static int CountMatches(IList<IList<string>> items, string ruleKey, string ruleValue)
     {
         int count = 0;
-        int index;
+        int index = 0;
 
-        if (ruleKey.Equals("type"))
-        {
-            index = 0;
-        }
-        else if (ruleKey.Equals("color"))
+        if (ruleKey.Equals("color"))
         {
             index = 1;
-        }
-        else
+        } 
+        else if (ruleKey.Equals("name"))
         {
             index = 2;
         }
