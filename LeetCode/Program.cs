@@ -56,11 +56,16 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(RobotReturnToOriginSolution.JudgeCircle(moves));
 
 // DIVIDE A STRING INTO GROUPS SIZE OF K
-string s = "abcdefghij";
-int k = 3;
-char fill = 'x';
-string[] result = DivideStringIntoGroupSizeKSolution.DivideString(s, k, fill);
-foreach (var res in result)
-{
-    Console.WriteLine(res);
-}
+// string s = "abcdefghij";
+// int k = 3;
+// char fill = 'x';
+// string[] result = DivideStringIntoGroupSizeKSolution.DivideString(s, k, fill);
+// foreach (var res in result)
+// {
+//     Console.WriteLine(res);
+// }
+
+// COUNT ITEMS MATCHING A RULE
+List<IList<string>> items = [["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]];
+string ruleKey = "type", ruleValue = "phone";
+Console.WriteLine(CountItemsMatchingARuleSolution.CountMatches(items, ruleKey, ruleValue));
