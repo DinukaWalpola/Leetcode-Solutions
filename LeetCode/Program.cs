@@ -71,5 +71,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(CountItemsMatchingARuleSolution.CountMatches(items, ruleKey, ruleValue));
 
 // SPLIT A STRING IN BALANCED STRINGS
-var s = "RLLLLRRRLR";
-Console.WriteLine(SplitStringInABalanceStringSolution.BalancedStringSplit(s));
+// var s = "RLLLLRRRLR";
+// Console.WriteLine(SplitStringInABalanceStringSolution.BalancedStringSplit(s));
+
+// DECRYPT STRING FROM ALPHABET TO INTEGER MAPPING
+string s = "824#15#826#";
+Console.WriteLine(DecryptStringFromAlphToIntMapSolution.FreqAlphabets(s));
