@@ -66,6 +66,10 @@ Console.WriteLine("Hello, World!");
 // }
 
 // COUNT ITEMS MATCHING A RULE
-List<IList<string>> items = [["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]];
-string ruleKey = "type", ruleValue = "phone";
-Console.WriteLine(CountItemsMatchingARuleSolution.CountMatches(items, ruleKey, ruleValue));
+// List<IList<string>> items = [["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]];
+// string ruleKey = "type", ruleValue = "phone";
+// Console.WriteLine(CountItemsMatchingARuleSolution.CountMatches(items, ruleKey, ruleValue));
+
+// SPLIT A STRING IN BALANCED STRINGS
+var s = "RLLLLRRRLR";
+Console.WriteLine(SplitStringInABalanceStringSolution.BalancedStringSplit(s));
