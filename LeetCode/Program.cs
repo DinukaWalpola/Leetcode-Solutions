@@ -75,5 +75,8 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(SplitStringInABalanceStringSolution.BalancedStringSplit(s));
 
 // DECRYPT STRING FROM ALPHABET TO INTEGER MAPPING
-string s = "824#15#826#";
-Console.WriteLine(DecryptStringFromAlphToIntMapSolution.FreqAlphabets(s));
+// string s = "824#15#826#";
+// Console.WriteLine(DecryptStringFromAlphToIntMapSolution.FreqAlphabets(s));
+
+// GENERATE A STRING WITH CHARACTERS THAT HAVE ODD COUNTS
+Console.WriteLine(GenerateStringWithOddCountCharacters.GenerateTheString(5));
