@@ -79,4 +79,7 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(DecryptStringFromAlphToIntMapSolution.FreqAlphabets(s));
 
 // GENERATE A STRING WITH CHARACTERS THAT HAVE ODD COUNTS
-Console.WriteLine(GenerateStringWithOddCountCharacters.GenerateTheString(5));
+// Console.WriteLine(GenerateStringWithOddCountCharacters.GenerateTheString(5));
+
+// SCORE OF A STRING
+Console.WriteLine(ScoreOfAString.ScoreOfString("zaz"));
