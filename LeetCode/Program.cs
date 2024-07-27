@@ -82,4 +82,8 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(GenerateStringWithOddCountCharacters.GenerateTheString(5));
 
 // SCORE OF A STRING
-Console.WriteLine(ScoreOfAString.ScoreOfString("zaz"));
+// Console.WriteLine(ScoreOfAString.ScoreOfString("zaz"));
+
+// FINAL VALUE OF A VARIABLE AFTER PERFORMING OPERATIONS 
+var operations = new[] {"++X","++X","X++"};
+Console.WriteLine(FinalValueOfAVarialbleAfterPerformingOperationsSolution.FinalValueAfterOperations(operations));
