@@ -85,5 +85,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(ScoreOfAString.ScoreOfString("zaz"));
 
 // FINAL VALUE OF A VARIABLE AFTER PERFORMING OPERATIONS 
-var operations = new[] {"++X","++X","X++"};
-Console.WriteLine(FinalValueOfAVarialbleAfterPerformingOperationsSolution.FinalValueAfterOperations(operations));
+// var operations = new[] {"++X","++X","X++"};
+// Console.WriteLine(FinalValueOfAVarialbleAfterPerformingOperationsSolution.FinalValueAfterOperations(operations));
+
+// DEFANGING AN IP ADDRESS
+string address = "255.100.50.0";
+Console.WriteLine(DefangingIpAddressSolution.DefangIPaddr(address));
