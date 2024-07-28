@@ -89,5 +89,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(FinalValueOfAVarialbleAfterPerformingOperationsSolution.FinalValueAfterOperations(operations));
 
 // DEFANGING AN IP ADDRESS
-string address = "255.100.50.0";
-Console.WriteLine(DefangingIpAddressSolution.DefangIPaddr(address));
+// string address = "255.100.50.0";
+// Console.WriteLine(DefangingIpAddressSolution.DefangIPaddr(address));
+
+// PERMUTATION DIFFERENCE BETWEEN TWO STRINGS
+string s = "abcde", t = "edbac";
+Console.WriteLine(PermutationDifferenceBetweenTwoStringsSolution.FindPermutationDifference(s, t));
