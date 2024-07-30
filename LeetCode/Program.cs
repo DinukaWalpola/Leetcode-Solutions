@@ -93,5 +93,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(DefangingIpAddressSolution.DefangIPaddr(address));
 
 // PERMUTATION DIFFERENCE BETWEEN TWO STRINGS
-string s = "abcde", t = "edbac";
-Console.WriteLine(PermutationDifferenceBetweenTwoStringsSolution.FindPermutationDifference(s, t));
+// string s = "abcde", t = "edbac";
+// Console.WriteLine(PermutationDifferenceBetweenTwoStringsSolution.FindPermutationDifference(s, t));
+
+// JEWELS AND STONES
+string jewels = "z", stones = "ZZ";
+Console.WriteLine(JewelsAndStones.NumJewelsInStones(jewels, stones));
