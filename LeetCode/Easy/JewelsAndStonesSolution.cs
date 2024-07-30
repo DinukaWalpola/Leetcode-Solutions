@@ -1,6 +1,6 @@
 namespace LeetCode.Easy;
 
-public class JewelsAndStones
+public class JewelsAndStonesSolution
 {
     public static int NumJewelsInStones(string jewels, string stones)
     {

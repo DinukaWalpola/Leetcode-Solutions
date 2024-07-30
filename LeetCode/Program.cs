@@ -98,4 +98,4 @@ Console.WriteLine("Hello, World!");
 
 // JEWELS AND STONES
 string jewels = "z", stones = "ZZ";
-Console.WriteLine(JewelsAndStones.NumJewelsInStones(jewels, stones));
+Console.WriteLine(JewelsAndStonesSolution.NumJewelsInStones(jewels, stones));
