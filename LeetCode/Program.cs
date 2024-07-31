@@ -97,5 +97,14 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(PermutationDifferenceBetweenTwoStringsSolution.FindPermutationDifference(s, t));
 
 // JEWELS AND STONES
-string jewels = "z", stones = "ZZ";
-Console.WriteLine(JewelsAndStonesSolution.NumJewelsInStones(jewels, stones));
+// string jewels = "z", stones = "ZZ";
+// Console.WriteLine(JewelsAndStonesSolution.NumJewelsInStones(jewels, stones));
+
+// FIND WORDS CONTAINING CHARACTER
+string[] words = ["leet","code"];
+char x = 'e';
+var res = FindWordsContainingCharacterSolution.FindWordsContaining(words, x);
+foreach (var i in res)
+{
+    Console.WriteLine(i);
+}
