@@ -8,14 +8,7 @@ public class FindWordsContainingCharacterSolution
 
         for (int i = 0; i < words.Length; i++)
         {
-            foreach (var c in words[i])
-            {
-                if (x == c)
-                {
-                    indexes.Add(i);
-                    break;
-                }
-            }
+            if (words[i].Contains(x)) indexes.Add(i);
         }
 
         return indexes;
