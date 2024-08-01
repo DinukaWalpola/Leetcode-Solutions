@@ -1,10 +1,12 @@
+using System.Text;
+
 namespace LeetCode.Easy;
 
 public class GoalParserInterpretationSolution
 {
     public static string Interpret(string command)
     {
-        List<char> letters = new List<char>();
+        StringBuilder letters = new StringBuilder();
 
         for (int i = 0; i < command.Length; i++)
         {
@@ -12,13 +14,13 @@ public class GoalParserInterpretationSolution
             {
                 if (command[i + 1] == ')')
                 {
-                    letters.Add('o');
+                    letters.Append('o');
                     i++;
                 }
                 else
                 {
-                    letters.Add(command[i + 1]);
-                    letters.Add(command[i + 2]);
+                    letters.Append(command[i + 1]);
+                    letters.Append(command[i + 2]);
                     i += 2;
                 }
             }
@@ -26,7 +28,7 @@ public class GoalParserInterpretationSolution
             {
                 if (command[i] != ')')
                 {
-                    letters.Add(command[i]);
+                    letters.Append(command[i]);
                 }
             }
         }
