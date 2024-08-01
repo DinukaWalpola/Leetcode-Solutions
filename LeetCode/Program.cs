@@ -101,10 +101,14 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(JewelsAndStonesSolution.NumJewelsInStones(jewels, stones));
 
 // FIND WORDS CONTAINING CHARACTER
-string[] words = ["leet","code"];
-char x = 'e';
-var res = FindWordsContainingCharacterSolution.FindWordsContaining(words, x);
-foreach (var i in res)
-{
-    Console.WriteLine(i);
-}
+// string[] words = ["leet","code"];
+// char x = 'e';
+// var res = FindWordsContainingCharacterSolution.FindWordsContaining(words, x);
+// foreach (var i in res)
+// {
+//     Console.WriteLine(i);
+// }
+
+// GOAL PARSER INTERPRETATION
+string command = "(al)G(al)()()G";
+Console.WriteLine(GoalParserInterpretationSolution.Interpret(command));
