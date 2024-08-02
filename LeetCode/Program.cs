@@ -110,5 +110,9 @@ Console.WriteLine("Hello, World!");
 // }
 
 // GOAL PARSER INTERPRETATION
-string command = "(al)G(al)()()G";
-Console.WriteLine(GoalParserInterpretationSolution.Interpret(command));
+// string command = "(al)G(al)()()G";
+// Console.WriteLine(GoalParserInterpretationSolution.Interpret(command));
+
+// MAXIMUM NUMBER OF WORDS FOUND IN SENTENCES
+string[] sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"];
+Console.WriteLine(MaximumNumberOfWordsInASentenceSolution.MostWordsFound(sentences));
