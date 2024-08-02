@@ -114,5 +114,5 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(GoalParserInterpretationSolution.Interpret(command));
 
 // MAXIMUM NUMBER OF WORDS FOUND IN SENTENCES
-string[] sentences = ["please wait", "continue to fight", "continue to win"];
+string[] sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"];
 Console.WriteLine(MaximumNumberOfWordsInASentenceSolution.MostWordsFound(sentences));

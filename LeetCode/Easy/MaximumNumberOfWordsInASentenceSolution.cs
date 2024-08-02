@@ -6,21 +6,31 @@ public class MaximumNumberOfWordsInASentenceSolution
     {
         int wordCount = 0;
 
-        foreach (var sent in sentences)
+        // foreach (var sent in sentences)
+        // {
+        //     int currentWordCount = 0;
+        //
+        //     for (int i = 0; i < sent.Length; i++)
+        //     {
+        //         if (sent[i] == ' ' || i == sent.Length - 1)
+        //         {
+        //             currentWordCount++;
+        //         }
+        //     }
+        //
+        //     if (currentWordCount > wordCount)
+        //     {
+        //         wordCount = currentWordCount;
+        //     }
+        // }
+        
+        foreach (var sentence in sentences)
         {
-            int currentWordCount = 0;
+            var words = sentence.Split(" ");
 
-            for (int i = 0; i < sent.Length; i++)
+            if (words.Length > wordCount)
             {
-                if (sent[i] == ' ' || i == sent.Length - 1)
-                {
-                    currentWordCount++;
-                }
-            }
-
-            if (currentWordCount > wordCount)
-            {
-                wordCount = currentWordCount;
+                wordCount = words.Length;
             }
         }
 
