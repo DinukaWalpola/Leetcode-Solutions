@@ -71,5 +71,5 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(CountItemsMatchingARuleSolution.CountMatches(items, ruleKey, ruleValue));
 
 // SPLIT A STRING IN BALANCED STRINGS
-var s = "RLLLLRRRLR";
+var s = "LLLLRRRR";
 Console.WriteLine(SplitStringInABalanceStringSolution.BalancedStringSplit(s));
