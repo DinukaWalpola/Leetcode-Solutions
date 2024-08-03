@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/LeetCode.csproj",
+      "projectUniqueName": "/Users/admin/Documents/Dinuka/Projects/Algorithms/Leetcode/Leetcode-Solutions/LeetCode/LeetCode.csproj",
       "projectName": "LeetCode",
-      "projectPath": "/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/LeetCode.csproj",
+      "projectPath": "/Users/admin/Documents/Dinuka/Projects/Algorithms/Leetcode/Leetcode-Solutions/LeetCode/LeetCode.csproj",
       "packagesPath": "/Users/admin/.nuget/packages/",
-      "outputPath": "/Users/admin/Documents/Dinuka/Projects/Algorithms/LeetCode/C#/Easy/Leetcode/LeetCode/LeetCode/obj/",
+      "outputPath": "/Users/admin/Documents/Dinuka/Projects/Algorithms/Leetcode/Leetcode-Solutions/LeetCode/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/admin/.nuget/NuGet/NuGet.Config"
