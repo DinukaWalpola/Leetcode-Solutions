@@ -67,14 +67,10 @@ public class SplitStringInABalanceStringSolution
                 count--;
             }
 
-            count = s[i] == 'R' ? count + 1 : count - 1;
-
-            pairCount = count == 0 ? pairCount + 1 : pairCount;
-
-            // if (count == 0)
-            // {
-            //     pairCount++;
-            // }
+            if (count == 0)
+            {
+                pairCount++;
+            }
         }
         
         return pairCount;
