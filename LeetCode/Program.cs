@@ -114,5 +114,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(GoalParserInterpretationSolution.Interpret(command));
 
 // MAXIMUM NUMBER OF WORDS FOUND IN SENTENCES
-string[] sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"];
-Console.WriteLine(MaximumNumberOfWordsInASentenceSolution.MostWordsFound(sentences));
+// string[] sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"];
+// Console.WriteLine(MaximumNumberOfWordsInASentenceSolution.MostWordsFound(sentences));
+
+// REVERSE PREFIX OF A WORD
+string word = "abcd";
+char ch = 'z';
+Console.WriteLine(ReversePrefixOfAWordSolution.ReversePrefix(word, ch));
