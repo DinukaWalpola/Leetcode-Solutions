@@ -14,6 +14,6 @@ public class ReversePrefixOfAWordSolution
             wordChar[index - i] = temp;
         }
 
-        return String.Join("", wordChar);
+        return new String(wordChar);
     }
 }
