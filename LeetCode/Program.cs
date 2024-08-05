@@ -123,5 +123,5 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(ReversePrefixOfAWordSolution.ReversePrefix(word, ch));
 
 // CHECK IF TWO STRING ARRAYS ARE EQUIVALENT
-string[] word1 = ["abc", "d", "defg"], word2 = ["abcddefg"];
+string[] word1 = ["ab", "c"], word2 = ["a", "bc"];
 Console.WriteLine(CheckIfTwoStringArraysAreEquivalentSolution.ArrayStringsAreEqual(word1, word2));
