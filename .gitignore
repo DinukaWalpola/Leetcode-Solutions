@@ -5,5 +5,6 @@
 /LeetCode/.DS_Store
 /LeetCode/obj/project.nuget.caches
 /LeetCode/obj/
-Leetcode-Solutions/LeetCode/bin
+Leetcode-Solutions/LeetCode/bin/
 Leetcode-Solutions/LeetCode/obj/
+Leetcode-Solutions/LeetCode/bin/Debug/
