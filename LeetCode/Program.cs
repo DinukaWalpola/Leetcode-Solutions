@@ -118,6 +118,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(MaximumNumberOfWordsInASentenceSolution.MostWordsFound(sentences));
 
 // REVERSE PREFIX OF A WORD
-string word = "abcd";
-char ch = 'z';
-Console.WriteLine(ReversePrefixOfAWordSolution.ReversePrefix(word, ch));
+// string word = "abcd";
+// char ch = 'z';
+// Console.WriteLine(ReversePrefixOfAWordSolution.ReversePrefix(word, ch));
+
+// CHECK IF TWO STRING ARRAYS ARE EQUIVALENT
+string[] word1 = ["ab", "c"], word2 = ["a", "bc"];
+Console.WriteLine(CheckIfTwoStringArraysAreEquivalentSolution.ArrayStringsAreEqual(word1, word2));
