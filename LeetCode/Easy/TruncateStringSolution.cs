@@ -6,27 +6,28 @@ public class TruncateStringSolution
 {
     public static string TruncateSentence(string s, int k)
     {
-        List<string> words = new List<string>();
+        StringBuilder words = new StringBuilder();
         StringBuilder word = new StringBuilder();
+        int wordCount = 0;
 
         for (int i = 0; i < s.Length; i++)
         {
             if (s[i] == ' ')
             {
-                words.Add(word.ToString());
+                words.Append(word.ToString());
                 word.Clear();
-                continue;
+                wordCount++;
             }
-
-            if (words.Count == k)
+            
+            if (wordCount == k)
             {
                 break;
             }
-
+            
             word.Append(s[i]);
         }
         
-        if (!word.Equals("")) words.Add(word.ToString());
+        words.Append(word.ToString());
 
         return String.Join(" ", words);
     }
