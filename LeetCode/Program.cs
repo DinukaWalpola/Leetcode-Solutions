@@ -123,5 +123,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(ReversePrefixOfAWordSolution.ReversePrefix(word, ch));
 
 // CHECK IF TWO STRING ARRAYS ARE EQUIVALENT
-string[] word1 = ["ab", "c"], word2 = ["a", "bc"];
-Console.WriteLine(CheckIfTwoStringArraysAreEquivalentSolution.ArrayStringsAreEqual(word1, word2));
+// string[] word1 = ["ab", "c"], word2 = ["a", "bc"];
+// Console.WriteLine(CheckIfTwoStringArraysAreEquivalentSolution.ArrayStringsAreEqual(word1, word2));
+
+// TRUNCATE STRINGS 
+string s = "chopper is not a tanuki";
+int k = 4;
+Console.WriteLine(TruncateStringSolution.TruncateSentence(s, k));
