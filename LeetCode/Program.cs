@@ -127,6 +127,15 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(CheckIfTwoStringArraysAreEquivalentSolution.ArrayStringsAreEqual(word1, word2));
 
 // TRUNCATE STRINGS 
-string s = "chopper is not a tanuki";
-int k = 4;
-Console.WriteLine(TruncateStringSolution.TruncateSentence(s, k));
+// string s = "chopper is not a tanuki";
+// int k = 4;
+// Console.WriteLine(TruncateStringSolution.TruncateSentence(s, k));
+
+// SORT THE PEOPLE
+string[] names = ["Mary","John","Emma"];
+int[] heights = [180,165,170];
+string[] output = SortThePeopleSolution.SortPeople(names, heights);
+foreach (var s in output)
+{
+    Console.Write($"{s} ");
+}
