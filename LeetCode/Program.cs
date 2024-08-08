@@ -132,10 +132,15 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(TruncateStringSolution.TruncateSentence(s, k));
 
 // SORT THE PEOPLE
-string[] names = ["Mary","John","Emma"];
-int[] heights = [180,165,170];
-string[] output = SortThePeopleSolution.SortPeople(names, heights);
-foreach (var s in output)
-{
-    Console.Write($"{s} ");
-}
+// string[] names = ["Mary","John","Emma"];
+// int[] heights = [180,165,170];
+// string[] output = SortThePeopleSolution.SortPeople(names, heights);
+// foreach (var s in output)
+// {
+//     Console.Write($"{s} ");
+// }
+
+// SHUFFLE STRING
+string s = "codeleet";
+int[] indices = [4,5,6,7,0,2,1,3];
+Console.WriteLine(ShuffleStringSolution.RestoreString(s, indices));
