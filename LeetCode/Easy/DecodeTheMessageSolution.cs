@@ -13,15 +13,14 @@ public class DecodeTheMessageSolution
 
         foreach (var m in message)
         {
-            if (m != ' ')
-            {
-                int indexOfFilteredKey = filteredKey.IndexOf(m);
-                decodedMessage.Append(alphabet[indexOfFilteredKey]);
-            }
-            else
+            if (m == ' ')
             {
                 decodedMessage.Append(m);
+                continue;
             }
+            
+            int indexOfFilteredKey = filteredKey.IndexOf(m);
+            decodedMessage.Append(alphabet[indexOfFilteredKey]);
         }
 
         return decodedMessage.ToString();
