@@ -141,6 +141,10 @@ Console.WriteLine("Hello, World!");
 // }
 
 // SHUFFLE STRING
-string s = "codeleet";
-int[] indices = [4,5,6,7,0,2,1,3];
-Console.WriteLine(ShuffleStringSolution.RestoreString(s, indices));
+// string s = "codeleet";
+// int[] indices = [4,5,6,7,0,2,1,3];
+// Console.WriteLine(ShuffleStringSolution.RestoreString(s, indices));
+
+// DECODE THE MESSAGE 
+string key = "eljuxhpwnyrdgtqkviszcfmabo", message = "zwx hnfx lqantp mnoeius ycgk vcnjrdb";
+Console.WriteLine(DecodeTheMessageSolution.DecodeMessage(key, message));
