@@ -146,5 +146,13 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(ShuffleStringSolution.RestoreString(s, indices));
 
 // DECODE THE MESSAGE 
-string key = "eljuxhpwnyrdgtqkviszcfmabo", message = "zwx hnfx lqantp mnoeius ycgk vcnjrdb";
-Console.WriteLine(DecodeTheMessageSolution.DecodeMessage(key, message));
+// string key = "eljuxhpwnyrdgtqkviszcfmabo", message = "zwx hnfx lqantp mnoeius ycgk vcnjrdb";
+// Console.WriteLine(DecodeTheMessageSolution.DecodeMessage(key, message));
+
+// CELLS IN A RANGE ON AN EXCEL SHEET
+string s = "U7:X9";
+var result = ExcelSheetCellRangeSolution.CellsInRange(s);
+foreach (var r in result)
+{
+    Console.Write($"{r} ");
+}
