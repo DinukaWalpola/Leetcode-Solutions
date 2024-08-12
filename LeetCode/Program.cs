@@ -158,5 +158,5 @@ Console.WriteLine("Hello, World!");
 // }
 
 // MAXIMUM NESTING DEPTH OF THE PARENTHESES
-string s = "()(())((()()))";
+string s = "(1)+((2))+(((3)))";
 Console.WriteLine(MaximumNestingDepthOfParenthesesSolution.MaxDepth(s));

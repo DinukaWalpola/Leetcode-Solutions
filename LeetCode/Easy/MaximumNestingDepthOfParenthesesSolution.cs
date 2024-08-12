@@ -9,6 +9,11 @@ public class MaximumNestingDepthOfParenthesesSolution
 
         foreach (var c in s)
         {
+            if (c != '(' && c != ')')
+            {
+                continue;
+            }
+            
             if (c == '(')
             {
                 count++;
