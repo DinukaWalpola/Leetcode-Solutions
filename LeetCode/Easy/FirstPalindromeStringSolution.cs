@@ -4,9 +4,7 @@ public class FirstPalindromeStringSolution
 {
     public static string FirstPalindrome(string[] words)
     {
-        string palindromeString = "";
         bool isPalindrome = true;
-        int currentWordIndex = 0;
 
         for (int i = 0; i < words.Length; i++)
         {
@@ -15,30 +13,23 @@ public class FirstPalindromeStringSolution
                 return words[i];
             }
             
-            for (int j = 0; j < words[i].Length; j++)
+            for (int j = 0; j < words[i].Length / 2; j++)
             {
-                if (j != words[i].Length / 2)
+                if (words[i][j] != words[i][words[i].Length - j - 1])
                 {
-                    if (words[i][j] != words[i][words[i].Length - j - 1])
-                    {
-                        isPalindrome = false;
-                        break;
-                    }
-                    else
-                    {
-                        currentWordIndex = i;
-                        isPalindrome = true;
-                    }
+                    isPalindrome = false;
+                    break;
                 }
             }
-
+            
             if (isPalindrome)
             {
-                palindromeString = words[currentWordIndex];
-                break;
+                return words[i];
             }
+            
+            isPalindrome = true;
         }
 
-        return palindromeString;
+        return String.Empty;
     }
 }
