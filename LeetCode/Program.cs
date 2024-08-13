@@ -158,5 +158,9 @@ Console.WriteLine("Hello, World!");
 // }
 
 // MAXIMUM NESTING DEPTH OF THE PARENTHESES
-string s = "(1)+((2))+(((3)))";
-Console.WriteLine(MaximumNestingDepthOfParenthesesSolution.MaxDepth(s));
+// string s = "(1)+((2))+(((3)))";
+// Console.WriteLine(MaximumNestingDepthOfParenthesesSolution.MaxDepth(s));
+
+// FIND FIRST PALINDROMIC STRING IN THE ARRAY
+string[] words = ["def","ghi"];
+Console.WriteLine(FirstPalindromeStringSolution.FirstPalindrome(words));
