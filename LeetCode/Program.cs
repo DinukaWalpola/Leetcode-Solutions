@@ -162,5 +162,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(MaximumNestingDepthOfParenthesesSolution.MaxDepth(s));
 
 // FIND FIRST PALINDROMIC STRING IN THE ARRAY
-string[] words = ["abc","car","ada","racecar","cool"];
-Console.WriteLine(FirstPalindromeStringSolution.FirstPalindrome(words));
+// string[] words = ["abc","car","ada","racecar","cool"];
+// Console.WriteLine(FirstPalindromeStringSolution.FirstPalindrome(words));
+
+// FAULTY KEYBOARD
+string s = "string";
+Console.WriteLine(FaultyKeyboardSolution.FinalString(s));
