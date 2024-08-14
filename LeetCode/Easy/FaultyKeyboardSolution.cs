@@ -8,18 +8,18 @@ public class FaultyKeyboardSolution
     {
         StringBuilder sb = new StringBuilder();
 
-        foreach (var c in s)
+        for(int i = 0; i < s.Length; i++)
         {
-            if (c == 'i')
+            if (s[i] == 'i')
             {
-                for (int i = 0; i < sb.Length / 2; i++)
+                for (int j = 0; j < sb.Length / 2; j++)
                 {
-                    (sb[i], sb[sb.Length - 1 - i]) = (sb[sb.Length - 1 - i], sb[i]);
+                    (sb[j], sb[sb.Length - 1 - j]) = (sb[sb.Length - 1 - j], sb[j]);
                 }
                 continue;
             }
 
-            sb.Append(c);
+            sb.Append(s[i]);
         }
 
         return sb.ToString();
