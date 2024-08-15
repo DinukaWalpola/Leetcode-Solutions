@@ -166,5 +166,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(FirstPalindromeStringSolution.FirstPalindrome(words));
 
 // FAULTY KEYBOARD
-string s = "string";
-Console.WriteLine(FaultyKeyboardSolution.FinalString(s));
+// string s = "string";
+// Console.WriteLine(FaultyKeyboardSolution.FinalString(s));
+
+// TO LOWERCASE 
+string s = "LOVELY";
+Console.WriteLine(ToLowerCaseSolution.ToLowerCase(s));
