@@ -170,5 +170,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(FaultyKeyboardSolution.FinalString(s));
 
 // TO LOWERCASE 
-string s = "LOVELY";
-Console.WriteLine(ToLowerCaseSolution.ToLowerCase(s));
+// string s = "LOVELY";
+// Console.WriteLine(ToLowerCaseSolution.ToLowerCase(s));
+
+// REMOVE OUTERMOST PARENTHESES
+string s = "(()())(())(()(()))";
+Console.WriteLine(RemoveOuterMostParenthesesSolution.RemoveOuterParentheses(s));
