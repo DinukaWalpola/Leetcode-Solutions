@@ -7,32 +7,28 @@ public class RemoveOuterMostParenthesesSolution
     public static string RemoveOuterParentheses(string s)
     {
         StringBuilder result = new StringBuilder();
-        int parenthesesCount = 1;
-        int iterator = 1;
+        int parenthesesCount = 0;
+        int iterator = 0;
         
         do
         {
-            if (parenthesesCount == 0)
-            {
-                parenthesesCount++;
-                iterator++;
-                continue;
-            }
-            
             if (s[iterator] == '(')
             {
+                if (parenthesesCount > 0)
+                {
+                    result.Append(s[iterator]);
+                }
                 parenthesesCount++;
             }
             else
             {
+                if (parenthesesCount > 1)
+                {
+                    result.Append(s[iterator]);
+                }
                 parenthesesCount--;
             }
             
-            if (parenthesesCount != 0)
-            {
-                result.Append(s[iterator]);
-            }
-
             iterator++;
 
         } while (iterator < s.Length);

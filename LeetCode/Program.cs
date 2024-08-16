@@ -174,5 +174,5 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(ToLowerCaseSolution.ToLowerCase(s));
 
 // REMOVE OUTERMOST PARENTHESES
-string s = "(()())(())";
+string s = "()()";
 Console.WriteLine(RemoveOuterMostParenthesesSolution.RemoveOuterParentheses(s));
