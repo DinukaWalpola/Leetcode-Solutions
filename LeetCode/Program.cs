@@ -178,6 +178,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(RemoveOuterMostParenthesesSolution.RemoveOuterParentheses(s));
 
 // COUNT THE NUMBER OF CONSISTENT STRINGS
-string allowed = "cad";
-string[] words = ["cc","acd","b","ba","bac","bad","ac","d"];
-Console.WriteLine(CountTheNumberOfConsistentStringsSolution.CountConsistentStrings(allowed, words));
+// string allowed = "cad";
+// string[] words = ["cc","acd","b","ba","bac","bad","ac","d"];
+// Console.WriteLine(CountTheNumberOfConsistentStringsSolution.CountConsistentStrings(allowed, words));
+
+// CHECK IF THE SENTENCE IS PANGRAM
+string sentence = "thequickbrownfoxjumpsoverthelazydog";
+Console.WriteLine(PangramSentenceSolution.CheckIfPangram(sentence));
