@@ -183,5 +183,5 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(CountTheNumberOfConsistentStringsSolution.CountConsistentStrings(allowed, words));
 
 // CHECK IF THE SENTENCE IS PANGRAM
-string sentence = "leetcode";
+string sentence = "thequickbrownfoxjumpsoverthelazydog";
 Console.WriteLine(PangramSentenceSolution.CheckIfPangram(sentence));

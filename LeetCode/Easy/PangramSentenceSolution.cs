@@ -11,11 +11,11 @@ public class PangramSentenceSolution
             if (!characters.Contains(c))
             {
                 characters.Add(c);
-            }
-
-            if (characters.Count == 26)
-            {
-                return true;
+                
+                if (characters.Count == 26)
+                {
+                    return true;
+                }
             }
         }
 
