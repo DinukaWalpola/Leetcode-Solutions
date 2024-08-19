@@ -183,5 +183,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(CountTheNumberOfConsistentStringsSolution.CountConsistentStrings(allowed, words));
 
 // CHECK IF THE SENTENCE IS PANGRAM
-string sentence = "thequickbrownfoxjumpsoverthelazydog";
-Console.WriteLine(PangramSentenceSolution.CheckIfPangram(sentence));
+// string sentence = "thequickbrownfoxjumpsoverthelazydog";
+// Console.WriteLine(PangramSentenceSolution.CheckIfPangram(sentence));
+
+// SORTING THE SENTENCE
+string s = "is2 sentence4 This1 a3";
+Console.WriteLine(SortingTheSentenceSolution.SortSentence(s));
