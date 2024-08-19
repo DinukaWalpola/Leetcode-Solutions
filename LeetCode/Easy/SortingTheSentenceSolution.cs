@@ -10,7 +10,7 @@ public class SortingTheSentenceSolution
         string[] sortedSentence;
         Dictionary<int, string> wordDictionary = new Dictionary<int, string>();
 
-        for (int i = 0; i < s.Length; i++)
+        for (int i = 0; i < s.Length - 1; i++)
         {
             if (s[i] == ' ')
             {
@@ -21,15 +21,11 @@ public class SortingTheSentenceSolution
                 letters.Clear();
                 continue;
             }
-            else if (i == s.Length - 1)
-            {
-                double indexVal = Char.GetNumericValue(s[i]);
-                int index = Convert.ToInt32(indexVal);
-                wordDictionary.Add(index, string.Join("", letters));
-                break;
-            }
+            
             letters.Add(s[i]);
         }
+        
+        wordDictionary.Add(Convert.ToInt32(Char.GetNumericValue(s[^1])), string.Join("", letters));
         
         sortedSentence = new string[wordDictionary.Count];
         
