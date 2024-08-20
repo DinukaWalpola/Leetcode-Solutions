@@ -187,5 +187,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(PangramSentenceSolution.CheckIfPangram(sentence));
 
 // SORTING THE SENTENCE
-string s = "is2 sentence4 This1 a3";
-Console.WriteLine(SortingTheSentenceSolution.SortSentence(s));
+// string s = "is2 sentence4 This1 a3";
+// Console.WriteLine(SortingTheSentenceSolution.SortSentence(s));
+
+// MAXIMUM ODD BINARY NUMBER
+string s = "0101";
+Console.WriteLine(MaximumOddBinaryNumberSolution.MaximumOddBinaryNumber(s));
