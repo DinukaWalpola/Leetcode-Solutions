@@ -195,6 +195,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(MaximumOddBinaryNumberSolution.MaximumOddBinaryNumber(s));
 
 // CHECK IF A STRING IS AN ACRONYM OF WORDS
-List<string> words = ["never","gonna","give","up","on","you"];
-string s = "ngguoy";
-Console.WriteLine(AcronymStringCheckSolution.IsAcronym(words, s));
+// List<string> words = ["never","gonna","give","up","on","you"];
+// string s = "ngguoy";
+// Console.WriteLine(AcronymStringCheckSolution.IsAcronym(words, s));
+
+// UNIQUE MORSE CODE WORDS 
+string[] words = ["a"];
+Console.WriteLine(UniqueMorseCordWordsSolution.UniqueMorseRepresentations(words));
