@@ -200,5 +200,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(AcronymStringCheckSolution.IsAcronym(words, s));
 
 // UNIQUE MORSE CODE WORDS 
-string[] words = ["a"];
-Console.WriteLine(UniqueMorseCordWordsSolution.UniqueMorseRepresentations(words));
+// string[] words = ["a"];
+// Console.WriteLine(UniqueMorseCordWordsSolution.UniqueMorseRepresentations(words));
+
+// COUNT ASTERISKS
+string s = "yo|uar|e**|b|e***au|tifu|l";
+Console.WriteLine(CountAsterisksSolution.CountAsterisks(s));
