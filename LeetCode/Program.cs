@@ -204,5 +204,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(UniqueMorseCordWordsSolution.UniqueMorseRepresentations(words));
 
 // COUNT ASTERISKS
-string s = "yo|uar|e**|b|e***au|tifu|l";
-Console.WriteLine(CountAsterisksSolution.CountAsterisks(s));
+// string s = "yo|uar|e**|b|e***au|tifu|l";
+// Console.WriteLine(CountAsterisksSolution.CountAsterisks(s));
+
+// KTH DISTINCT STRING IN AN ARRAY
+string[] arr = ["a","b","a"];
+int k = 3;
+Console.WriteLine(KthDistinctStringInArraySolution.KthDistinct(arr, k));
