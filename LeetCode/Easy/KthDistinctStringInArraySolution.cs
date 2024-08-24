@@ -9,18 +9,21 @@ public class KthDistinctStringInArraySolution
 
         for (int i = 0; i < arr.Length; i++)
         {
-            for (int j = i + 1; j < arr.Length; j++)
-            {
-                if (arr[i] == arr[j])
-                {
-                    duplicateStrings.Add(arr[i]);
-                    break;
-                }
-            }
-
             if (!duplicateStrings.Contains(arr[i]))
             {
-                distinctStrings.Add(arr[i]);
+                for (int j = i + 1; j < arr.Length; j++)
+                {
+                    if (arr[i] == arr[j])
+                    {
+                        duplicateStrings.Add(arr[i]);
+                        break;
+                    }
+                }
+
+                if (!duplicateStrings.Contains(arr[i]))
+                {
+                    distinctStrings.Add(arr[i]);
+                }
             }
         }
 
