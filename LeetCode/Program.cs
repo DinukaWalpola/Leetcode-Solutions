@@ -208,6 +208,6 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(CountAsterisksSolution.CountAsterisks(s));
 
 // KTH DISTINCT STRING IN AN ARRAY
-string[] arr = ["aaa","aa","a"];
-int k = 1;
+string[] arr = ["a","b","a"];
+int k = 3;
 Console.WriteLine(KthDistinctStringInArraySolution.KthDistinct(arr, k));
