@@ -208,6 +208,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(CountAsterisksSolution.CountAsterisks(s));
 
 // KTH DISTINCT STRING IN AN ARRAY
-string[] arr = ["aaa","aa","a"];
-int k = 1;
-Console.WriteLine(KthDistinctStringInArraySolution.KthDistinct(arr, k));
+// string[] arr = ["aaa","aa","a"];
+// int k = 1;
+// Console.WriteLine(KthDistinctStringInArraySolution.KthDistinct(arr, k));
+
+// LEXICOGRAPHICALLY SMALLEST PALINDROME
+string s = "seven";
+Console.WriteLine(LexicographicallySmallestPalindromeSolution.MakeSmallestPalindrome(s));
