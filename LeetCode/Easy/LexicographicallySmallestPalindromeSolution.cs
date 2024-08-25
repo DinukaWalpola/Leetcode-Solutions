@@ -4,25 +4,20 @@ public class LexicographicallySmallestPalindromeSolution
 {
     public static string MakeSmallestPalindrome(string s)
     {
-        char[] leftSide = s.Substring(0, s.Length / 2).ToCharArray();
-        char[] rightSide = s.Length % 2 == 0
-            ? s.Substring(s.Length / 2).ToCharArray()
-            : s.Substring((s.Length / 2) + 1).ToCharArray();
-
-        for (int i = 0; i < leftSide.Length; i++)
+        char[] inputStr = s.ToCharArray();
+        
+        for (int i = 0; i < s.Length / 2; i++)
         {
-            if ((int)leftSide[i] > (int)rightSide[rightSide.Length - 1 - i])
+            if ((int)s[i] > (int)s[s.Length - 1 - i])
             {
-                leftSide[i] = rightSide[rightSide.Length - 1 - i];
+                inputStr[i] = s[s.Length - 1 - i];
             }
-            else if ((int)leftSide[i] < (int)rightSide[rightSide.Length - 1 - i])
+            else if ((int)s[i] < (int)s[s.Length - 1 - i])
             {
-                rightSide[rightSide.Length - 1 - i] = leftSide[i];
+                inputStr[s.Length - 1 - i] = s[i];
             }
         }
 
-        return s.Length % 2 == 0
-            ? new string(leftSide) + new string(rightSide)
-            : new string(leftSide) + s[s.Length / 2] + new string(rightSide);
+        return new string(inputStr);
     }
 }

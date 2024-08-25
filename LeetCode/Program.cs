@@ -213,5 +213,5 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(KthDistinctStringInArraySolution.KthDistinct(arr, k));
 
 // LEXICOGRAPHICALLY SMALLEST PALINDROME
-string s = "seven";
+string s = "egcfe";
 Console.WriteLine(LexicographicallySmallestPalindromeSolution.MakeSmallestPalindrome(s));
