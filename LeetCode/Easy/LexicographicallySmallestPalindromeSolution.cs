@@ -8,11 +8,11 @@ public class LexicographicallySmallestPalindromeSolution
         
         for (int i = 0; i < s.Length / 2; i++)
         {
-            if ((int)s[i] > (int)s[s.Length - 1 - i])
+            if (s[i] > s[s.Length - 1 - i])
             {
                 inputStr[i] = s[s.Length - 1 - i];
             }
-            else if ((int)s[i] < (int)s[s.Length - 1 - i])
+            else if (s[i] < s[s.Length - 1 - i])
             {
                 inputStr[s.Length - 1 - i] = s[i];
             }
