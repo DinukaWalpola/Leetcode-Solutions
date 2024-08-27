@@ -213,5 +213,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(KthDistinctStringInArraySolution.KthDistinct(arr, k));
 
 // LEXICOGRAPHICALLY SMALLEST PALINDROME
-string s = "egcfe";
-Console.WriteLine(LexicographicallySmallestPalindromeSolution.MakeSmallestPalindrome(s));
+// string s = "egcfe";
+// Console.WriteLine(LexicographicallySmallestPalindromeSolution.MakeSmallestPalindrome(s));
+
+// SNAKE IN MATRIX
+int n = 3;
+string[] commands = ["DOWN","RIGHT","UP"];
+Console.WriteLine(SnakeInMatrix.FinalPositionOfSnake(n, commands));
