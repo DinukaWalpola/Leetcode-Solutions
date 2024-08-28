@@ -217,6 +217,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(LexicographicallySmallestPalindromeSolution.MakeSmallestPalindrome(s));
 
 // SNAKE IN MATRIX
-int n = 3;
-string[] commands = ["DOWN","RIGHT","UP"];
-Console.WriteLine(SnakeInMatrix.FinalPositionOfSnake(n, commands));
+// int n = 3;
+// string[] commands = ["DOWN","RIGHT","UP"];
+// Console.WriteLine(SnakeInMatrix.FinalPositionOfSnake(n, commands));
+
+// NUMBER OF SENIOR CITIZENS
+string[] details = ["1313579440F2036","2921522980M5644"];
+Console.WriteLine(NumberOfSeniorCitizensSolution.CountSeniors(details));
