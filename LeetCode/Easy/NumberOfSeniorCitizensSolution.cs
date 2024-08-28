@@ -8,7 +8,7 @@ public class NumberOfSeniorCitizensSolution
 
         for (int i = 0; i < details.Length; i++)
         {
-            int age = int.Parse(string.Concat(details[i][11], details[i][12]));
+            int age = int.Parse($"{details[i][11]}{details[i][12]}");
 
             if (age > 60)
             {

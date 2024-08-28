@@ -222,5 +222,5 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(SnakeInMatrix.FinalPositionOfSnake(n, commands));
 
 // NUMBER OF SENIOR CITIZENS
-string[] details = ["1313579440F2036","2921522980M5644"];
+string[] details = ["7868190130M7522", "5303914400F9211", "9273338290F4010"];
 Console.WriteLine(NumberOfSeniorCitizensSolution.CountSeniors(details));
