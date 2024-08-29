@@ -15,6 +15,7 @@ public class FindMaxNumberOfStringPairsSolution
                 if (reversedWord == words[j])
                 {
                     pairsCount++;
+                    break;
                 }
             }
         }

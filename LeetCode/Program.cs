@@ -226,5 +226,5 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(NumberOfSeniorCitizensSolution.CountSeniors(details));
 
 // FIND MAXIMUM NUMBER OF STRING PAIRS
-string[] words = ["aa","ab"];
+string[] words = ["cd", "ac", "dc", "ca", "zz"];
 Console.WriteLine(FindMaxNumberOfStringPairsSolution.MaximumNumberOfStringPairs(words));
