@@ -222,5 +222,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(SnakeInMatrix.FinalPositionOfSnake(n, commands));
 
 // NUMBER OF SENIOR CITIZENS
-string[] details = ["7868190130M7522", "5303914400F9211", "9273338290F4010"];
-Console.WriteLine(NumberOfSeniorCitizensSolution.CountSeniors(details));
+// string[] details = ["7868190130M7522", "5303914400F9211", "9273338290F4010"];
+// Console.WriteLine(NumberOfSeniorCitizensSolution.CountSeniors(details));
+
+// FIND MAXIMUM NUMBER OF STRING PAIRS
+string[] words = ["aa","ab"];
+Console.WriteLine(FindMaxNumberOfStringPairsSolution.MaximumNumberOfStringPairs(words));
