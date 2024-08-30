@@ -11,7 +11,7 @@ public class ReplaceDigitsWithCharactersSolution
 
         for (int i = 0; i < c.Length / 2; i++)
         {
-            c[count + 1] = Convert.ToChar(c[count] + (int) c[count + 1]);
+            c[count + 1] = Convert.ToChar(c[count] + (int)char.GetNumericValue(c[count + 1]));
             count += 2;
         }
 
