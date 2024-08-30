@@ -226,5 +226,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(NumberOfSeniorCitizensSolution.CountSeniors(details));
 
 // FIND MAXIMUM NUMBER OF STRING PAIRS
-string[] words = ["aa","ab"];
-Console.WriteLine(FindMaxNumberOfStringPairsSolution.MaximumNumberOfStringPairs(words));
+// string[] words = ["aa","ab"];
+// Console.WriteLine(FindMaxNumberOfStringPairsSolution.MaximumNumberOfStringPairs(words));
+
+// REPLACE ALL DIGITS WITH CHARACTERS
+string s = "a1b2c3d4e";
+Console.WriteLine(ReplaceDigitsWithCharactersSolution.ReplaceDigits(s));
