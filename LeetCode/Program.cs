@@ -230,5 +230,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(FindMaxNumberOfStringPairsSolution.MaximumNumberOfStringPairs(words));
 
 // REPLACE ALL DIGITS WITH CHARACTERS
-string s = "a1b2c3d4e";
-Console.WriteLine(ReplaceDigitsWithCharactersSolution.ReplaceDigits(s));
+// string s = "a1b2c3d4e";
+// Console.WriteLine(ReplaceDigitsWithCharactersSolution.ReplaceDigits(s));
+
+// NUMBER OF STRING THAT APPEAR AS SUBSTRINGS IN WORD
+string[] patterns = ["bce"];
+string word = "abcce";
+Console.WriteLine(StringCountAsASubstringSolution.NumOfStrings(patterns, word));
