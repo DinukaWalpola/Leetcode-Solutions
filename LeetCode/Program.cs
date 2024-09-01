@@ -234,6 +234,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(ReplaceDigitsWithCharactersSolution.ReplaceDigits(s));
 
 // NUMBER OF STRING THAT APPEAR AS SUBSTRINGS IN WORD
-string[] patterns = ["bce"];
-string word = "abcce";
-Console.WriteLine(StringCountAsASubstringSolution.NumOfStrings(patterns, word));
+// string[] patterns = ["bce"];
+// string word = "abcce";
+// Console.WriteLine(StringCountAsASubstringSolution.NumOfStrings(patterns, word));
+
+// NUMBER OF CHANGING KEYS
+string s = "aAbBcC";
+Console.WriteLine(NumberOfChangingKeysSolution.CountKeyChanges(s));
