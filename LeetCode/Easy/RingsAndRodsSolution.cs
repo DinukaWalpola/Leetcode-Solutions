@@ -4,13 +4,20 @@ public class RingsAndRodsSolution
 {
     public static int CountPoints(string rings)
     {
-        List<char>[] rods = new List<char>[10];
-        int pointCount = 0;
-
-        for (int i = 0; i < rods.Length; i++)
+        List<char>[] rods =
         {
-            rods[i] = new List<char>();
-        }
+            new List<char>(), 
+            new List<char>(),
+            new List<char>(),
+            new List<char>(),
+            new List<char>(),
+            new List<char>(),
+            new List<char>(),
+            new List<char>(),
+            new List<char>(),
+            new List<char>(),
+        };
+        int pointCount = 0;
 
         for (int i = 1; i < rings.Length; i += 2)
         {
