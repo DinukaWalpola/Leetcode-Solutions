@@ -239,5 +239,9 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(StringCountAsASubstringSolution.NumOfStrings(patterns, word));
 
 // NUMBER OF CHANGING KEYS
-string s = "aAbBcC";
-Console.WriteLine(NumberOfChangingKeysSolution.CountKeyChanges(s));
+// string s = "aAbBcC";
+// Console.WriteLine(NumberOfChangingKeysSolution.CountKeyChanges(s));
+
+// RINGS AND RODS
+string rings = "G4";
+Console.WriteLine(RingsAndRodsSolution.CountPoints(rings));
