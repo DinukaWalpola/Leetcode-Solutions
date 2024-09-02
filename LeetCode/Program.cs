@@ -243,5 +243,5 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(NumberOfChangingKeysSolution.CountKeyChanges(s));
 
 // RINGS AND RODS
-string rings = "G4";
+string rings = "B0R0G0R9R0B0G0";
 Console.WriteLine(RingsAndRodsSolution.CountPoints(rings));

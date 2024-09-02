@@ -26,7 +26,7 @@ public class RingsAndRodsSolution
 
         for (int i = 0; i < rods.Length; i++)
         {
-            if (rods[i].Contains('R') && rods[i].Contains('G') && rods[i].Contains('B'))
+            if (rods[i].Distinct().Count() == 3)
             {
                 pointCount++;
             }
