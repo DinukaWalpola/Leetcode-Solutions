@@ -243,5 +243,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(NumberOfChangingKeysSolution.CountKeyChanges(s));
 
 // RINGS AND RODS
-string rings = "B0R0G0R9R0B0G0";
-Console.WriteLine(RingsAndRodsSolution.CountPoints(rings));
+// string rings = "B0R0G0R9R0B0G0";
+// Console.WriteLine(RingsAndRodsSolution.CountPoints(rings));
+
+// SUM OF DIGITS OF STRING AFTER CONVERT
+string s = "fleyctuuajsr";
+int k = 5;
+Console.WriteLine(SumOfDigitsOfStringAfterConvertSolution.GetLucky(s, k));
