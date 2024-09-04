@@ -5,20 +5,18 @@ public class DestinationCitySolution
     public static string DestCity(IList<IList<string>> paths)
     {
         HashSet<string> startingCity = new HashSet<string>();
-        List<string> endingCity = new List<string>();
         string finalDestination = "";
 
         for (int i = 0; i < paths.Count; i++)
         {
             startingCity.Add(paths[i][0]);
-            endingCity.Add(paths[i][1]);
         }
 
-        for (int i = 0; i < endingCity.Count; i++)
+        for (int i = 0; i < paths.Count; i++)
         {
-            if (!startingCity.Contains(endingCity[i]))
+            if (!startingCity.Contains(paths[i][1]))
             {
-                finalDestination = endingCity[i];
+                finalDestination = paths[i][1];
             }
         }
 
