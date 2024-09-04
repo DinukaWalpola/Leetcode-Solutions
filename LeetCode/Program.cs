@@ -247,6 +247,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(RingsAndRodsSolution.CountPoints(rings));
 
 // SUM OF DIGITS OF STRING AFTER CONVERT
-string s = "fleyctuuajsr";
-int k = 5;
-Console.WriteLine(SumOfDigitsOfStringAfterConvertSolution.GetLucky(s, k));
+// string s = "fleyctuuajsr";
+// int k = 5;
+// Console.WriteLine(SumOfDigitsOfStringAfterConvertSolution.GetLucky(s, k));
+
+// DESTINATION CITY 
+IList<IList<string>> paths = [["A","Z"]];
+Console.WriteLine(DestinationCitySolution.DestCity(paths));
