@@ -18,6 +18,10 @@ public class DestinationCitySolution
             {
                 finalDestination = paths[i][1];
             }
+            else 
+            {
+                startingCity.Remove(paths[i][1]);
+            }
         }
 
         return finalDestination;
