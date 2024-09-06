@@ -252,5 +252,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(SumOfDigitsOfStringAfterConvertSolution.GetLucky(s, k));
 
 // DESTINATION CITY 
-IList<IList<string>> paths = [["A","Z"]];
-Console.WriteLine(DestinationCitySolution.DestCity(paths));
+// IList<IList<string>> paths = [["A","Z"]];
+// Console.WriteLine(DestinationCitySolution.DestCity(paths));
+
+// COUNTING WORDS WITH A GIVEN PREFIX 
+string[] words = ["leetcode","win","loops","success"];
+string pref = "code";
+Console.WriteLine(CountingWordsWithAGivenPrefixSolution.PrefixCount(words,pref));
