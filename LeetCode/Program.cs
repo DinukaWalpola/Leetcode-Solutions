@@ -256,6 +256,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(DestinationCitySolution.DestCity(paths));
 
 // COUNTING WORDS WITH A GIVEN PREFIX 
-string[] words = ["leetcode","win","loops","success"];
-string pref = "code";
-Console.WriteLine(CountingWordsWithAGivenPrefixSolution.PrefixCount(words,pref));
+// string[] words = ["leetcode","win","loops","success"];
+// string pref = "code";
+// Console.WriteLine(CountingWordsWithAGivenPrefixSolution.PrefixCount(words,pref));
+
+// DELETE COLUMNS TO MAKE SORTED
+string[] strs = ["rrjk","furt","guzm"];
+Console.WriteLine(DeleteColumnsToMakeSortedSolution.MinDeletionSize(strs));
