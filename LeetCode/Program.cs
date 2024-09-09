@@ -265,8 +265,8 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(DeleteColumnsToMakeSortedSolution.MinDeletionSize(strs));
 
 // SPLIT STRINGS BY SEPARATOR
-string[] words = ["$easy$","$problem$"];
-char separator = '$';
+string[] words = ["stars.bars.$"];
+char separator = '.';
 var result = SplitStringsBySeparatorSolution.SplitWordsBySeparator(words, separator);
 foreach (var word in result)
 {
