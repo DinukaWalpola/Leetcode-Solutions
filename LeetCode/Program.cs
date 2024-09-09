@@ -261,5 +261,15 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(CountingWordsWithAGivenPrefixSolution.PrefixCount(words,pref));
 
 // DELETE COLUMNS TO MAKE SORTED
-string[] strs = ["rrjk","furt","guzm"];
-Console.WriteLine(DeleteColumnsToMakeSortedSolution.MinDeletionSize(strs));
+// string[] strs = ["rrjk","furt","guzm"];
+// Console.WriteLine(DeleteColumnsToMakeSortedSolution.MinDeletionSize(strs));
+
+// SPLIT STRINGS BY SEPARATOR
+string[] words = ["$easy$","$problem$"];
+char separator = '$';
+var result = SplitStringsBySeparatorSolution.SplitWordsBySeparator(words, separator);
+foreach (var word in result)
+{
+    Console.WriteLine(word);
+}
+
