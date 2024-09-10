@@ -265,11 +265,19 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(DeleteColumnsToMakeSortedSolution.MinDeletionSize(strs));
 
 // SPLIT STRINGS BY SEPARATOR
-string[] words = ["stars.bars.$"];
-char separator = '.';
-var result = SplitStringsBySeparatorSolution.SplitWordsBySeparator(words, separator);
-foreach (var word in result)
+// string[] words = ["stars.bars.$"];
+// char separator = '.';
+// var result = SplitStringsBySeparatorSolution.SplitWordsBySeparator(words, separator);
+// foreach (var word in result)
+// {
+//     Console.WriteLine(word);
+// }
+
+// KEYBOARD ROW
+string[] words = ["adsdf","sfd"];
+var results = KeyboardRowSolution.FindWords(words);
+foreach (var result in results)
 {
-    Console.WriteLine(word);
+    Console.WriteLine(result);
 }
 
