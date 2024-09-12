@@ -274,10 +274,14 @@ Console.WriteLine("Hello, World!");
 // }
 
 // KEYBOARD ROW
-string[] words = ["adsdf","sfd"];
-var results = KeyboardRowSolution.FindWords(words);
-foreach (var result in results)
-{
-    Console.WriteLine(result);
-}
+// string[] words = ["adsdf","sfd"];
+// var results = KeyboardRowSolution.FindWords(words);
+// foreach (var result in results)
+// {
+//     Console.WriteLine(result);
+// }
+
+// MAXIMUM VALUE OF A STRING IN AN ARRAY
+string[] strs = ["5232","yv","22","c","yawgs","928","4003","2"];
+Console.WriteLine(MaximumValueOfAStringInAnArraySolution.MaximumValue(strs));
 
