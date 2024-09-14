@@ -32,9 +32,9 @@ public class UniqueEmailAddressesSolution
             if (!duplicateEmails.Contains($"{localName}@{splittedEmail[1]}"))
             {
                 uniqueEmailCount++;
+                duplicateEmails.Add($"{localName}@{splittedEmail[1]}");
             }
             
-            duplicateEmails.Add($"{localName}@{splittedEmail[1]}");
             localName.Clear();
         }
 
