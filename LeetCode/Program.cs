@@ -282,6 +282,10 @@ Console.WriteLine("Hello, World!");
 // }
 
 // MAXIMUM VALUE OF A STRING IN AN ARRAY
-string[] strs = ["5232","yv","22","c","yawgs","928","4003","2"];
-Console.WriteLine(MaximumValueOfAStringInAnArraySolution.MaximumValue(strs));
+// string[] strs = ["5232","yv","22","c","yawgs","928","4003","2"];
+// Console.WriteLine(MaximumValueOfAStringInAnArraySolution.MaximumValue(strs));
+
+// UNIQUE EMAIL ADDRESSES
+string[] emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"];
+Console.WriteLine(UniqueEmailAddressesSolution.NumUniqueEmails(emails));
 
