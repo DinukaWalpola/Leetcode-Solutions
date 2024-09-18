@@ -286,6 +286,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(MaximumValueOfAStringInAnArraySolution.MaximumValue(strs));
 
 // UNIQUE EMAIL ADDRESSES
-string[] emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"];
-Console.WriteLine(UniqueEmailAddressesSolution.NumUniqueEmails(emails));
+// string[] emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"];
+// Console.WriteLine(UniqueEmailAddressesSolution.NumUniqueEmails(emails));
+
+// CRAWLER LOG FOLDER
+string[] logs = ["d1/","../","../","../"];
+Console.WriteLine(CrawlerLogFolderSolution.MinOperations(logs));
 
