@@ -8,17 +8,18 @@ public class CrawlerLogFolderSolution
 
         for (int i = 0; i < logs.Length; i++)
         {
+            if (logs[i].Equals("./") || (minNumOfOperations == 0 && logs[i].Equals("../")))
+            {
+                continue;
+            }
+            
             if (logs[i].Equals("../"))
             {
-                if (minNumOfOperations > 0)
-                {
-                    minNumOfOperations--;
-                }
+                minNumOfOperations--;
+                continue;
             }
-            else if (!logs[i].Equals("./"))
-            {
-                minNumOfOperations++;
-            }
+            
+            minNumOfOperations++;
         }
 
         return minNumOfOperations;
