@@ -294,6 +294,6 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(CrawlerLogFolderSolution.MinOperations(logs));
 
 // COUNT PAIR OF SIMILAR STRINGS
-string[] words = ["dcedceadceceaeddcedc","dddcebcedcdbaeaaaeab","eecbeddbddeadcbbbdbb","decbcbebbddceacdeadd","ccbddbaedcadedbcaaae","dddcaadaceaedcdceedd","bbeddbcbbccddcaceeea","bdabacbbdadabbbddaea"];
+string[] words = ["aba","aabb","abcd","bac","aabc"];
 Console.WriteLine(CountPairsOfSimilarWordsSolution.SimilarPairs(words));
 

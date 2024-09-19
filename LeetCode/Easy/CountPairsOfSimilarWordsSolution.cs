@@ -5,30 +5,26 @@ public class CountPairsOfSimilarWordsSolution
     public static int SimilarPairs(string[] words)
     {
         int pairCount = 0;
-        List<char> first;
-        List<char> second;
-        bool isSimilar;
 
         for (int i = 0; i < words.Length; i++)
         {
-            first = words[i].ToCharArray().Distinct().ToList();
+            var first = words[i].ToCharArray().Distinct().ToList();
             for (int j = i + 1; j < words.Length; j++)
             {
-                isSimilar = true;
-                second = words[j].ToCharArray().Distinct().ToList();
+                var isSimilar = true;
+                var second = words[j].ToCharArray().Distinct().ToList();
 
                 if (first.Count != second.Count)
                 {
                     continue;
                 }
 
-                for (int k = 0; k < first.Count; k++)
+                first.Sort();
+                second.Sort();
+
+                if (!string.Join("", first).Equals(string.Join("", second)))
                 {
-                    if (!first.Contains(second[k]))
-                    {
-                        isSimilar = false;
-                        break;
-                    }
+                    isSimilar = false;
                 }
                 
                 if (isSimilar)
