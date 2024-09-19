@@ -290,6 +290,10 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(UniqueEmailAddressesSolution.NumUniqueEmails(emails));
 
 // CRAWLER LOG FOLDER
-string[] logs = ["d1/","../","../","../"];
-Console.WriteLine(CrawlerLogFolderSolution.MinOperations(logs));
+// string[] logs = ["d1/","../","../","../"];
+// Console.WriteLine(CrawlerLogFolderSolution.MinOperations(logs));
+
+// COUNT PAIR OF SIMILAR STRINGS
+string[] words = ["aba","aabb","abcd","bac","aabc"];
+Console.WriteLine(CountPairsOfSimilarWordsSolution.SimilarPairs(words));
 
