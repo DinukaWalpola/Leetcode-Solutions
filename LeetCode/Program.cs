@@ -298,6 +298,11 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(CountPairsOfSimilarWordsSolution.SimilarPairs(words));
 
 // COUNT PREFIX AND SUFIX PAIRS I
-string[] words = ["abab","ab"];
-Console.WriteLine(CountPrefixAndSufixPairsSolution.CountPrefixSuffixPairs(words));
+// string[] words = ["abab","ab"];
+// Console.WriteLine(CountPrefixAndSufixPairsSolution.CountPrefixSuffixPairs(words));
+
+// SLOWEST KEY 
+int[] releaseTimes = [12, 23, 36, 46, 62];
+string keysPressed = "spuda";
+Console.WriteLine(SlowestKeySolutions.SlowestKey(releaseTimes, keysPressed));
 
