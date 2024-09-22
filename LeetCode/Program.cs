@@ -302,7 +302,15 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(CountPrefixAndSufixPairsSolution.CountPrefixSuffixPairs(words));
 
 // SLOWEST KEY 
-int[] releaseTimes = [12, 23, 36, 46, 62];
-string keysPressed = "spuda";
-Console.WriteLine(SlowestKeySolutions.SlowestKey(releaseTimes, keysPressed));
+// int[] releaseTimes = [12, 23, 36, 46, 62];
+// string keysPressed = "spuda";
+// Console.WriteLine(SlowestKeySolutions.SlowestKey(releaseTimes, keysPressed));
+
+// STRING MATCHING IN AN ARRAY
+string[] words = ["leetcoder","leetcode","od","hamlet","am"];
+var result = StringMatchingInAnArraySolution.StringMatching(words);
+foreach (var word in result)
+{
+    Console.Write($"{word} ");
+}
 
