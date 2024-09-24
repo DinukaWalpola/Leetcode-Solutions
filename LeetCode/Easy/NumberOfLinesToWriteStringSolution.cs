@@ -9,19 +9,18 @@ public class NumberOfLinesToWriteStringSolution
 
         for (int i = 0; i < s.Length; i++)
         {
-            if (totalPixelsInOneLine + widths[s[i] - 97] <= 100)
+            int index = widths[s[i] - 97];
+            if (totalPixelsInOneLine + index <= 100)
             {
-                totalPixelsInOneLine += widths[s[i] - 97];
+                totalPixelsInOneLine += index;
             }
             else
             {
                 lineCount++;
-                totalPixelsInOneLine = widths[s[i] - 97];
+                totalPixelsInOneLine = index;
             }
         }
 
-        lineCount++;
-
-        return [lineCount, totalPixelsInOneLine];
+        return [++lineCount, totalPixelsInOneLine];
     }
 }
