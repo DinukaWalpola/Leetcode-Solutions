@@ -315,5 +315,11 @@ Console.WriteLine("Hello, World!");
 // }
 
 // ODD STRING DIFFERENCE
-string[] words = ["adc","wzy","abc"];
-Console.WriteLine(OddStringDifferenceSolution.OddString(words));
+// string[] words = ["adc","wzy","abc"];
+// Console.WriteLine(OddStringDifferenceSolution.OddString(words));
+
+// NUMBER OF LINES TO WRITE STRING
+int[] widths = [4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10];
+string s = "bbbcccdddaaa";
+var result = NumberOfLinesToWriteStringSolution.NumberOfLines(widths, s);
+Console.WriteLine($"{result[0]},{result[1]}");
