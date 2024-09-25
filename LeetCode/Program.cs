@@ -319,7 +319,15 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(OddStringDifferenceSolution.OddString(words));
 
 // NUMBER OF LINES TO WRITE STRING
-int[] widths = [4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10];
-string s = "bbbcccdddaaa";
-var result = NumberOfLinesToWriteStringSolution.NumberOfLines(widths, s);
-Console.WriteLine($"{result[0]},{result[1]}");
+// int[] widths = [4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10];
+// string s = "bbbcccdddaaa";
+// var result = NumberOfLinesToWriteStringSolution.NumberOfLines(widths, s);
+// Console.WriteLine($"{result[0]},{result[1]}");
+
+// MINIMUM INDEX SUM OF TWO LISTS
+string[] list1 = ["happy","sad","good"], list2 = ["sad","happy","good"];
+var result = MinimumIndexSumOfTwoListsSolution.FindRestaurant(list1, list2);
+foreach (var word in result)
+{
+    Console.Write($"{word} ");
+}
